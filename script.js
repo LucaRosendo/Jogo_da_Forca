@@ -82,23 +82,23 @@ function mudarimagem(){
 
   switch(erro){
     case 1:
-      img.setAttribute("src", "Imagens/Forca_2.png");
+      img.setAttribute("src", "Forca_2.png");
     break;
       
     case 2:
-      img.setAttribute("src", "Imagens/Forca_3.png");
+      img.setAttribute("src", "Forca_3.png");
     break;
       
     case 3:
-      img.setAttribute("src", "Imagens/Forca_4.png");
+      img.setAttribute("src", "Forca_4.png");
     break;
       
     case 4:
-      img.setAttribute("src", "Imagens/Forca_5.png");
+      img.setAttribute("src", "Forca_5.png");
     break;
       
     case 5:
-      img.setAttribute("src", "Imagens/Forca_6.png");
+      img.setAttribute("src", "Forca_6.png");
     break;
   }
 }
