@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="tela">
+    <h2>Jogo da forca</h2>
+
+    
+    <div class="forca">
+      <img src="Imagens/Forca_1.png" alt="">  
+    </div>
+
+    <div class="palavra">
+    <p id="escondido">A palavra será escondida aqui</p>
+    </div>
+    
+    <p>Insira a palavras a serem advinhadas, quando desejar começar o jogo digite a palavra <b>fim</b></p>
+
+    <form>
+        <input type="text" id="novapalavra" placeholder="Insira a palavra aqui"><br>
+        <button type="button" onclick="criarPalavra()">Confimar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
